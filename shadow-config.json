@@ -1,0 +1,38 @@
+{
+  "pairs": [
+    {
+      "name": "backend",
+      "a": { "remote": "main-repo",    "url": "https://github.com/negedng/sht6-main.git",     "dir": "backend" },
+      "b": { "remote": "backend-repo", "url": "https://github.com/negedng/sht6-backend.git",  "dir": "" }
+    },
+    {
+      "name": "frontend",
+      "a": { "remote": "main-repo",     "url": "https://github.com/negedng/sht6-main.git",     "dir": "frontend" },
+      "b": { "remote": "frontend-repo", "url": "https://github.com/negedng/sht6-frontend.git", "dir": "" }
+    },
+    {
+      "name": "common-backend",
+      "a": { "remote": "main-repo",    "url": "https://github.com/negedng/sht6-main.git",     "dir": "common" },
+      "b": { "remote": "backend-repo", "url": "https://github.com/negedng/sht6-backend.git",  "dir": "src/common" }
+    },
+    {
+      "name": "common-frontend",
+      "a": { "remote": "main-repo",     "url": "https://github.com/negedng/sht6-main.git",     "dir": "common" },
+      "b": { "remote": "frontend-repo", "url": "https://github.com/negedng/sht6-frontend.git", "dir": "src/app/common" }
+    }
+  ],
+
+  "trailers": {
+    "replayed": "Shadow-replayed"
+  },
+
+  "gitConfigOverrides": {
+    "core.autocrlf": "false",
+    "core.safecrlf": "false",
+    "core.precomposeunicode": "true",
+    "core.quotepath": "false"
+  },
+
+  "maxBuffer": 52428800,
+  "shadowBranchPrefix": "shadow"
+}

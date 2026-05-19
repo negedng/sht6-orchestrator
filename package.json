@@ -1,0 +1,16 @@
+{
+  "name": "sht6-orchestrator",
+  "version": "1.0.0",
+  "description": "Shadow-sync orchestrator for sht6-main ↔ sht6-backend / sht6-frontend",
+  "private": true,
+  "scripts": {
+    "sync": "cross-env SHADOW_CONFIG=./shadow-config.json tsx node_modules/shadow-sync/shadow-sync.ts"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "tsx": "^4.0.0"
+  },
+  "dependencies": {
+    "shadow-sync": "github:negedng/shadow-sync"
+  }
+}
