@@ -1,7 +1,7 @@
 {
   "filters": {
-    "main-repo":     ["main"],
-    "backend-repo":  ["main"],
-    "frontend-repo": ["main"]
+    "main-repo":     ["main", "project-*"],
+    "backend-repo":  ["main", "project-*"],
+    "frontend-repo": ["main", "project-*"]
   }
 }
