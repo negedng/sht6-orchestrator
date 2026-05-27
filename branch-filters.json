@@ -1,0 +1,7 @@
+{
+  "filters": {
+    "main-repo":     ["main"],
+    "backend-repo":  ["main"],
+    "frontend-repo": ["main"]
+  }
+}
